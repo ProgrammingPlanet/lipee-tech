@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Single Product</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="OneTech shop project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+		<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+		<link rel="stylesheet" type="text/css" href="styles/product_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
+	</head>
+	<body>
+		<div class="super_container">
+			
+			<!-- Header -->
+			<nav class="navbar navbar-expand-sm navbar-dark navbar-top fixed-top bg-dark" style="box-shadow: 0px 5px 5px #9bc1ff;">
+				<div class="container">
+					<a href="#" class="navbar-brand text-success"> LipeeTech</a>
+					<button class="navbar-toggler bg-success" data-toggle="collapse" data-target="#navid">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navid">
+						<ul class="navbar-nav text-center ml-auto">
+							<li class="nav-item dropdown mx-3">
+								<a href="#" class="nav-link mt-2" data-toggle="dropdown">
+									<i class="fa fa-2x fa-shopping-bag"></i><span class="badge badge-pill badge-warning notification">3</span>
+								</a>
+								<ul class="dropdown-menu">
+									<!-- <li class="dropdown-header"> Group 1 </li> -->
+									<li><a href="#" class="dropdown-item"> Item 1 </a></li>
+									<li><a href="#" class="dropdown-item"> item 2 </a></li>
+									<!-- <li class="dropdown-header"> Group 2 </li>
+									<li><a href="#" class="dropdown-item"> Link 1 </a></li> -->
+								</ul>
+							</li>
+							<li class="nav-item dropdown mx-3">
+								<a href="#" class="nav-link " data-toggle="dropdown">
+									<img src="images/avatar-m.png" class="rounded-circle img-fluid" width="50">
+								</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header"> Group 1 </li>
+									<li><a href="#" class="dropdown-item"> Link 1 </a></li>
+									<li><a href="#" class="dropdown-item"> Link 2 </a></li>
+									<li class="dropdown-header"> Group 2 </li>
+									<li><a href="#" class="dropdown-item"> Link 1 </a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<script type="text/javascript" src="custom/header.js"></script>
+			
+			<!-- header end -->
+			<!-- Single Product -->
+			<div class="single_product">
+				<div class="container">
+					<div class="row">
+						<!-- Images -->
+						<div class="col-lg-2 order-lg-1 order-2">
+							<ul class="image_list">
+								<li data-image="images/single_4.jpg"><img src="images/single_4.jpg" alt=""></li>
+								<li data-image="images/single_2.jpg"><img src="images/single_2.jpg" alt=""></li>
+								<li data-image="images/single_3.jpg"><img src="images/single_3.jpg" alt=""></li>
+							</ul>
+						</div>
+						<!-- Selected Image -->
+						<div class="col-lg-5 order-lg-2 order-1">
+							<div class="image_selected"><img src="images/single_4.jpg" alt=""></div>
+						</div>
+						<!-- Description -->
+						<div class="col-lg-5 order-3">
+							<div class="product_description">
+								<div class="product_category">Laptops</div>
+								<div class="product_name">MacBook Air 13</div>
+								<div class="rating_r rating_r_4 product_rating"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="product_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum. laoreet turpis, nec sollicitudin dolor cursus at. Maecenas aliquet, dolor a faucibus efficitur, nisi tellus cursus urna, eget dictum lacus turpis.</p></div>
+								<div class="order_info d-flex flex-row">
+									<form action="#">
+										<div class="clearfix" style="z-index: 1000;">
+											<!-- Product Quantity -->
+											<div class="product_quantity clearfix">
+												<span>Quantity: </span>
+												<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+												<div class="quantity_buttons">
+													<div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+													<div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+												</div>
+											</div>
+											<!-- Product Color -->
+											<ul class="product_color">
+												<li>
+													<span>Color: </span>
+													<div class="color_mark_container"><div id="selected_color" class="color_mark"></div></div>
+													<div class="color_dropdown_button"><i class="fas fa-chevron-down"></i></div>
+													<ul class="color_list">
+														<li><div class="color_mark" style="background: #999999;"></div></li>
+														<li><div class="color_mark" style="background: #b19c83;"></div></li>
+														<li><div class="color_mark" style="background: #000000;"></div></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="product_price">$2000</div>
+										<div class="button_container">
+											<button type="button" class="button cart_button">Add to Cart</button>
+											<div class="product_fav"><i class="fas fa-heart"></i></div>
+										</div>
+										
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section>
+				<div class="container-fluid p-0 mt-5"><br>
+					<div class="mx-0 mt-4 text-white bg-light py-3 px-4" style="min-height: 350px;">
+						
+						
+						<!-- multy slider -->
+						<div class="carousel slide border" id="multi-slider" data-ride="carousel">
+							<div class="carousel-inner ">
+								<div class="carousel-item active">
+									<div class="row px-4 py-2">
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/2.jpg">
+											<div id="content" class="py-2 text-center">cat1</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/2.jpg">
+											<div id="content" class="py-2 text-center">cat2</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/2.jpg">
+											<div id="content" class="py-2 text-center">cat3</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/2.jpg">
+											<div id="content" class="py-2 text-center">cat4</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="row px-4 py-2">
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/1.jpg">
+											<div id="content" class="py-2 text-center">cat5</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/1.jpg">
+											<div id="content" class="py-2 text-center">cat6</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/1.jpg">
+											<div id="content" class="py-2 text-center">cat7</div>
+										</div>
+										<div class="col-3 mx-auto">
+											<img class="img-fluid" src="img/portfolio/1.jpg">
+											<div id="content" class="py-2 text-center">cat8</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#multi-slider" data-slide="prev" class="carousel-control-prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a href="#multi-slider" data-slide="next" class="carousel-control-next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
+						</div>
+						<!-- multy slide end -->
+					</div>
+					
+				</section>
+
+				<section>
+					
+					
+				</section>
+				
+				
+				<!-- Newsletter -->
+				<div class="newsletter">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
+									<div class="newsletter_title_container">
+										<div class="newsletter_icon"><img src="images/send.png" alt=""></div>
+										<div class="newsletter_title">Sign up for Newsletter</div>
+										<div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
+									</div>
+									<div class="newsletter_content clearfix">
+										<form action="#" class="newsletter_form">
+											<input type="email" class="newsletter_input" required="required" placeholder="Enter your email address">
+											<button class="newsletter_button">Subscribe</button>
+										</form>
+										<div class="newsletter_unsubscribe_link"><a href="#">unsubscribe</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer" background-color="pink">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 footer_col">
+								<div class="footer_column footer_contact">
+									<div class="logo_container">
+										<div class="logo">
+											<a href="#"><img src="images/avatar-m.png" class="rounded-circle img-fluid" width="50"></a>
+										</div>
+									</div>
+									<div class="footer_title">We are here for help</div>
+									<div class="footer_phone">+919870691617</div>
+									<div class="footer_contact_text">
+										<p>IET LUCKNOW</p>
+									</div>
+									<div class="footer_social">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+											<li><a href="#"><i class="fab fa-google"></i></a></li>
+											<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 offset-lg-2">
+								<div class="footer_column">
+									<div class="footer_title">Find it by Category</div>
+									<ul class="footer_list">
+										<li><a href="#">Academic Books</a></li>
+										<li><a href="#">Competitive Exam Book</a></li>
+										<li><a href="#">Action & Adventure</a></li>
+										<li><a href="#">Health & Family</a></li>
+										<li><a href="#">Humor</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2">
+								<div class="footer_column">
+									<div class="footer_title">Customer Care</div>
+									<ul class="footer_list">
+										<li><a href="#">My Account</a></li>
+										<li><a href="#">Order Tracking</a></li>
+										<li><a href="#">Wish List</a></li>
+										<li><a href="#">Customer Services</a></li>
+										<li><a href="#">Returns / Exchange</a></li>
+										<li><a href="#">FAQs</a></li>
+										<li><a href="#">Product Support</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- Copyright -->
+				<div class="copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								
+								<div class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
+									<div class="logos ml-sm-auto">
+										<ul class="logos_list">
+											<li><a href="#"><img src="images/logos_1.png" alt=""></a></li>
+											<li><a href="#"><img src="images/logos_2.png" alt=""></a></li>
+											<li><a href="#"><img src="images/logos_3.png" alt=""></a></li>
+											<li><a href="#"><img src="images/logos_4.png" alt=""></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/jquery-3.3.1.min.js"></script>
+			<script src="styles/bootstrap4/popper.js"></script>
+			<script src="styles/bootstrap4/bootstrap.min.js"></script>
+			<script src="plugins/greensock/TweenMax.min.js"></script>
+			<script src="plugins/greensock/TimelineMax.min.js"></script>
+			<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+			<script src="plugins/greensock/animation.gsap.min.js"></script>
+			<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+			<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+			<script src="plugins/easing/easing.js"></script>
+			<script src="js/product_custom.js"></script>
+		</body>
+	</html>
